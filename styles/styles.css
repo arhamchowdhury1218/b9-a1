@@ -2,7 +2,8 @@
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: Merriweather;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; */
 }
 
 .banner-image {
@@ -26,7 +27,7 @@
     color: #FFF;
     text-align: center;
     font-size: 32px;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -40,7 +41,7 @@
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     line-height: 95px;
     width: 632px;
     margin: auto;
@@ -50,7 +51,7 @@
 
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
     margin-top: 80px;
@@ -61,7 +62,7 @@
 
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-top: 40px;
@@ -72,7 +73,7 @@
 
     color: #070211;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -94,17 +95,21 @@
 
 .midnight-party {
 
+
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
-    fill: ;
+
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 1320px;
+    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
     border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    width: 50%;
+
+
+
 
 }
 
@@ -114,7 +119,7 @@
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     letter-spacing: 7.04px;
     padding: 70px 70px;
 
@@ -125,7 +130,7 @@
 
 
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -137,7 +142,7 @@
 .midnight-party-description {
 
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -150,12 +155,13 @@
 
     color: #FFF;
     text-align: left;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 100;
     text-transform: uppercase;
     background-color: #070211;
     border: #070211;
+    padding-left: 32px;
 
 
 }
@@ -178,16 +184,34 @@
 
 /* Venue and time */
 
-.venue {
 
+.Time-Venue{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 150px;
-    gap: 10px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
-    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 50%;
-    /* margin-bottom: 50px; */
     border-radius: 16px;
+  
+
+}
+
+.venue {
+
+    /* margin-top: 150px; */
+    /* gap: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    /* width: 50%;
+    /* margin-bottom: 50px; */
+    /* border-radius: 16px; */ */
 
 
 }
@@ -196,7 +220,7 @@
 .place {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -210,7 +234,7 @@
 
 .location {
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -223,18 +247,15 @@
 
     color: #FFF;
     background-color: #F00;
-    text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 1350px;
-    padding: 15px;
+    padding: 16px 32px;
     border-radius: 16px;
-
-
+    margin-bottom: 200px;
+    margin-top: 18px;
+    
+   
 
 }
