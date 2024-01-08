@@ -185,7 +185,7 @@
 /* Venue and time */
 
 
-.Time-Venue{
+.Time-Venue {
 
     display: flex;
     flex-direction: column;
@@ -198,7 +198,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
-  
+
 
 }
 
@@ -211,9 +211,8 @@
     padding-top: 100px;
     /* width: 50%;
     /* margin-bottom: 50px; */
-    /* border-radius: 16px; */ */
-
-
+    /* border-radius: 16px; */
+    */
 }
 
 
@@ -253,9 +252,78 @@
     text-transform: uppercase;
     padding: 16px 32px;
     border-radius: 16px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-top: 18px;
-    
-   
 
 }
+
+/* Functional Holiday Sale 50% */
+
+.functional-title {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.what-is-functional {
+
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.holiday {
+
+    color: #F00;
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.sale {
+
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+
+}
+
+.functional-description {
+
+    color: rgba(7, 2, 17, 0.60);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* width: 1068px; */
+}
+
+.four-images {
+
+    background-image: url(../images/Rectangle\ 2.png);
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background-position: center center;
+    
+}
+/*  */
+/*  */
+
+
+
+/* Awesome Gifts */
