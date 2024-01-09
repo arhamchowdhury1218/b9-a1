@@ -2,8 +2,7 @@
     margin: 0;
     border: 0;
     padding: 0;
-    /* font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif; */
+
 }
 
 .banner-image {
@@ -103,7 +102,6 @@
     flex-direction: row;
     margin-top: 100px;
     width: 1320px;
-    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
@@ -119,10 +117,7 @@
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    font-family: 'Merriweather', serif;
-    letter-spacing: 7.04px;
     padding: 70px 70px;
-
 
 }
 
@@ -146,7 +141,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    text-align: justify;
 
 
 }
@@ -194,25 +188,21 @@
     margin-top: 150px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
-    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
+    margin-bottom: 120px;
 
 
 }
 
 .venue {
 
-    /* margin-top: 150px; */
-    /* gap: 10px; */
+
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
-    /* width: 50%;
-    /* margin-bottom: 50px; */
-    /* border-radius: 16px; */
-    */
+ 
 }
 
 
@@ -282,6 +272,7 @@
 .new-best-offer {
 
     text-align: left;
+    padding-top: 70px;
 }
 
 .best-offer {
@@ -320,10 +311,10 @@
     width: 364.844px;
     height: 364.844px;
     border-radius: 364.844px;
-    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
     border-radius: 43px;
     border: 15px solid #F00;
-    border-radius:50%;
+    border-radius: 50%;
+    padding: 30px;
 }
 
 
@@ -331,14 +322,15 @@
 .new-year {
 
 
-    margin-bottom: 10px;
+    margin-bottom: 100px;
+
 
 }
 
 .current-year {
 
     color: #F00;
-
+    margin-top: 30px;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -352,6 +344,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin-top: 15px;
 }
 
 .new-year-picture {
@@ -389,7 +382,6 @@
 .holiday {
 
     color: #F00;
-    /* text-align: center; */
     font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
@@ -418,21 +410,50 @@
 
 .four-images {
 
-    margin-top: 100px;
-    background-image: url(../images/Rectangle\ 2.png);
+    margin-top: 150px;
     width: 1320px;
-    height: 229px;
-    border-radius: 16px 0px 16px 16px;
-    background-position: center center;
+    height: 662px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 
 }
 
+.rectangle-red {
+
+    position: absolute;
+    bottom: 0%;
+}
+
+.extra-images {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.extra-images .left {
+
+    position: absolute;
+    top: 0;
+
+}
+
+.extra-images .right {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.extra-images .right .fifty-discount {
 
 
+    position: absolute;
+    right: 70%;
+    top: 20%;
 
-
-/*  */
-/*  */
+}
 
 
 
@@ -441,7 +462,7 @@
 
 .best-gifts {
 
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     width: 1320px;
@@ -456,6 +477,11 @@
     font-size: 24px;
     font-weight: 500;
 
+}
+
+.mark:hover {
+    background-color: black;
+    border-radius: 300px;
 }
 
 .awesome-portfolio {
@@ -503,7 +529,6 @@
     background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
     width: 1320px;
-    /* height: 616px; */
     margin-left: auto;
     margin-right: auto;
 
@@ -512,10 +537,9 @@
 .icon {
 
     width: 150px;
-    height: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 40px;
+    padding: 80px 0px 40px 0px;
 }
 
 .subscribe-title {
@@ -545,7 +569,6 @@
 .email {
 
     width: 648px;
-    /* height: 72px; */
     border-radius: 0px;
     background: #FFF;
     padding: 25px;
@@ -638,6 +661,7 @@
     justify-content: space-between;
 }
 
+
 .call-image {
 
     padding-right: 15px;
@@ -656,7 +680,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
+
 
 
 }
@@ -666,12 +690,11 @@
     margin-right: 24px;
 }
 
-/* .line {
+.line {
 
-    color: rgba(255, 255, 255, 0.15);
-    width: 1320px;
-    size: 5;
-} */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 130px;
+}
 
 
 .security {
